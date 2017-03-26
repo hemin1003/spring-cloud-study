@@ -22,7 +22,7 @@
 | 工具    | 版本或描述                |
 | ----- | -------------------- |
 | JDK   | 1.8                  |
-| IDE   | STS 或者 IntelliJ IDEA |
+| IDE   | Eclipse 或者 IntelliJ IDEA |
 | Maven | 3.x                  |
 
 ## 主机名配置：
