@@ -1,4 +1,4 @@
-package com.itmuch.cloud.study.user.feign;
+package com.minbo.cloud.study.user.feign;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,12 +7,11 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.itmuch.cloud.study.user.entity.User;
-import com.itmuch.cloud.study.user.feign.UserFeignHystrixClient.HystrixClientFallback;
+import com.minbo.cloud.study.user.entity.User;
+import com.minbo.cloud.study.user.feign.UserFeignHystrixClient.HystrixClientFallback;
 
 /**
  * 使用@FeignClient注解的fallback属性，指定fallback类
- * @author eacdy
  */
 @FeignClient(name = "microservice-provider-user", fallback = HystrixClientFallback.class)
 public interface UserFeignHystrixClient {

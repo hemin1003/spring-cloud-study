@@ -1,4 +1,4 @@
-package com.itmuch.cloud.study;
+package com.minbo.cloud.study;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +8,6 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 /**
  * 使用@EnableFeignClients开启Feign
- * @author eacdy
  */
 @SpringBootApplication
 @EnableFeignClients
