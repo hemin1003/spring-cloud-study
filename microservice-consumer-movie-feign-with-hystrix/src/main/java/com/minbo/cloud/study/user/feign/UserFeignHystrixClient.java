@@ -12,7 +12,6 @@ import com.minbo.cloud.study.user.feign.UserFeignHystrixClient.HystrixClientFall
 
 /**
  * 使用@FeignClient注解的fallback属性，指定fallback类
- * @author eacdy
  */
 @FeignClient(name = "microservice-provider-user", fallback = HystrixClientFallback.class)
 public interface UserFeignHystrixClient {
