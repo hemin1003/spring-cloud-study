@@ -1,4 +1,4 @@
-package com.itmuch.cloud.study.user.entity;
+package com.minbo.cloud.study.user.entity;
 
 public class User {
   private Long id;
