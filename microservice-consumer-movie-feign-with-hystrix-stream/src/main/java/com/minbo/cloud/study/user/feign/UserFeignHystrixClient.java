@@ -20,7 +20,6 @@ public interface UserFeignHystrixClient {
 
   /**
    * 这边采取了和Spring Cloud官方文档相同的做法，将fallback类作为内部类放入Feign的接口中，当然也可以单独写一个fallback类。
-   * @author eacdy
    */
   @Component
   static class HystrixClientFallback implements UserFeignHystrixClient {

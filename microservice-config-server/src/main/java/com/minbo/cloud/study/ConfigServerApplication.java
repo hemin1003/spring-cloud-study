@@ -1,4 +1,4 @@
-package com.itmuch.cloud.study;
+package com.minbo.cloud.study;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -19,7 +19,6 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  * http://localhost:8040/microservice-config-client-dev.properties
  * http://localhost:8040/microservice-config-client/dev
  * ...
- * @author eacdy
  */
 @SpringBootApplication
 @EnableConfigServer
