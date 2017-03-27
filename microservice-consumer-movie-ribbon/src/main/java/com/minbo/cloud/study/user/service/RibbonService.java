@@ -1,10 +1,10 @@
-package com.itmuch.cloud.study.user.service;
+package com.minbo.cloud.study.user.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.itmuch.cloud.study.user.entity.User;
+import com.minbo.cloud.study.user.entity.User;
 
 @Service
 public class RibbonService {

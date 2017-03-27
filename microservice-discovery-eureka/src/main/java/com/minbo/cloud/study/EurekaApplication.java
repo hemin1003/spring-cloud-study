@@ -1,4 +1,4 @@
-package com.itmuch.cloud.study;
+package com.minbo.cloud.study;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,7 +6,6 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * 使用Eureka做服务发现.
- * @author eacdy
  */
 @SpringBootApplication
 @EnableEurekaServer

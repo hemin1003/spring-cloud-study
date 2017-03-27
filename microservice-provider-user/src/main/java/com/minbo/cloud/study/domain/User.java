@@ -1,4 +1,4 @@
-package com.itmuch.cloud.study.domain;
+package com.minbo.cloud.study.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

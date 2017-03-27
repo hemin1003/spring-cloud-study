@@ -1,4 +1,4 @@
-package com.itmuch.cloud.study.controller;
+package com.minbo.cloud.study.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
@@ -7,14 +7,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.itmuch.cloud.study.domain.User;
-import com.itmuch.cloud.study.repository.UserRepository;
+import com.minbo.cloud.study.domain.User;
+import com.minbo.cloud.study.repository.UserRepository;
 
 /**
  * 作用：
  * ① 测试服务实例的相关内容
  * ② 为后来的服务做提供
- * @author eacdy
  */
 @RestController
 public class UserController {
