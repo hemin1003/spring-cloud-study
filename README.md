@@ -1,5 +1,7 @@
 # 项目简介
 
+[教程说明地址](https://github.com/hemin1003/spring-cloud-book)
+
 使用Spring Cloud与Docker实战微服务
 
 内容主要包含：
