@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
@@ -20,6 +21,7 @@ import org.springframework.web.client.RestTemplate;
  * 其中Ribbon提供了多种策略，例如轮询、随机、根据响应时间加权等。
  */
 @SpringBootApplication
+@EnableEurekaClient
 @EnableDiscoveryClient
 public class MovieRibbonApplication {
 	/**

@@ -1,17 +1,25 @@
 spring:
-  application:
-    name: microservice-api-gateway
+   application:
+      name: microservice-api-gateway
 server:
-  port: 8050
+   port: 8050
 eureka:
-  instance:
-    hostname: gateway
-  client:
-    serviceUrl:
-      defaultZone: http://discovery:8761/eureka/
+   #instance:
+   #   hostname: gateway
+   instance:
+      preferIpAddress: true
+   client:
+      serviceUrl:
+         defaultZone: http://localhost:8761/eureka/
 zuul:
-  ignored-services: microservice-provider-user                        # 需要忽视的服务(配置后将不会被路由)
-  routes:
-    movie:                                                            # 可以随便写，在zuul上面唯一即可；当这里的值 = service-id时，service-id可以不写。
-      path: /movie/**                                                 # 想要映射到的路径
-      service-id: microservice-consumer-movie-ribbon-with-hystrix     # Eureka中的serviceId
+   ignored-services: microservice-provider-user # 需要忽视的服务(配置后将不会被路由)
+   routes:
+      #movie: # 可以随便写，在zuul上面唯一即可；当这里的值=service-id时，service-id可以不写。
+         #path: /movie/** # 想要映射到的路径
+         #service-id: microservice-consumer-movie-ribbon-with-hystrix # Eureka中的serviceId
+      api-a:
+         path: /api-a/**
+         serviceId: microservice-consumer-movie-ribbon-with-hystrix
+      api-b:
+         path: /api-b/**
+         serviceId: microservice-consumer-movie-feign-with-hystrix

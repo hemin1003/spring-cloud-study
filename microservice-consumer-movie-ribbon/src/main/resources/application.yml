@@ -1,11 +1,11 @@
 server:
-  port: 8010
+   port: 8010
 spring:
-  application:
-    name: microservice-consumer-movie-ribbon
+   application:
+      name: microservice-consumer-movie-ribbon
 eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://discovery:8761/eureka/
-  instance:
-    preferIpAddress: true
+   client:
+      serviceUrl:
+         defaultZone: http://localhost:8761/eureka/
+   instance:
+      preferIpAddress: true

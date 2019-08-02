@@ -14,6 +14,6 @@ import org.springframework.cloud.netflix.turbine.EnableTurbine;
 @EnableTurbine
 public class TurbineApplication {
 	public static void main(String[] args) {
-		new SpringApplicationBuilder(TurbineApplication.class).web(true).run(args);
+		new SpringApplicationBuilder(TurbineApplication.class).run(args);
 	}
 }
