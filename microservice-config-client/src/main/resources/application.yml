@@ -1,2 +1,13 @@
 server:
-  port: 8041
+   port: 8041
+management:
+   endpoint:
+      refresh:
+         enabled: true
+   endpoints:
+      web:
+         exposure:
+            include:
+            - info
+            - health
+            - refresh
