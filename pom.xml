@@ -33,8 +33,12 @@
 
 		<module>microservice-config-server</module>
 		<module>microservice-config-client</module>
+
+		<module>microservice-config-server-eureka</module>
+		<module>microservice-config-client-eureka</module>
 		
-		<!-- <module>microservice-config-server-eureka</module> <module>microservice-config-client-eureka</module> -->
+		<module>microservice-consumer-zipkin-hi</module>
+		<module>microservice-consumer-zipkin-greet</module>
 	</modules>
 
 	<properties>
