@@ -8,7 +8,7 @@
 	<packaging>jar</packaging>
 
 	<parent>
-		<groupId>com.itmuch.cloud</groupId>
+		<groupId>com.minbo.cloud</groupId>
 		<artifactId>spring-cloud-microservice-study</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
