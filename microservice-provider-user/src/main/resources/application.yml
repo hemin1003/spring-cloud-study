@@ -12,6 +12,6 @@ eureka:
          defaultZone: http://localhost:8761/eureka/ # 指定注册中心的地址
    instance:
       preferIpAddress: true
-# 按需配置续约更新时间和到期时间
+      # 按需配置续约更新时间和到期时间
       lease-expiration-duration-in-seconds: 30
       lease-renewal-interval-in-seconds: 10
