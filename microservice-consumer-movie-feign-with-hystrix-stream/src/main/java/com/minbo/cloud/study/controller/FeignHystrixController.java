@@ -13,7 +13,7 @@ public class FeignHystrixController {
 	@Autowired
 	private MyFeignClient feignClient;
 
-	@GetMapping(value = "feign/hi")
+	@GetMapping(value = "/hi")
 	public String sayHi(@RequestParam String name) {
 		String result = this.feignClient.sayHiFromClientOne(name);
 		return result;

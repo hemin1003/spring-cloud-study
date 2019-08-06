@@ -26,6 +26,9 @@ zuul:
       api-c:
          path: /api-c/**
          serviceId: microservice-consumer-movie-ribbon
+      api-d:
+         path: /api-d/**
+         serviceId: microservice-consumer-movie-feign
 management:
    endpoints:
       web:
