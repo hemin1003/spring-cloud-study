@@ -23,3 +23,11 @@ zuul:
       api-b:
          path: /api-b/**
          serviceId: microservice-consumer-movie-feign-with-hystrix
+      api-c:
+         path: /api-c/**
+         serviceId: microservice-consumer-movie-ribbon
+management:
+   endpoints:
+      web:
+         exposure:
+            include: '*'

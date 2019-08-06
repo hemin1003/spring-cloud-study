@@ -9,6 +9,8 @@ import org.springframework.cloud.netflix.turbine.EnableTurbine;
  * 这样可以更好的把握整个系统的状态。为此，Netflix提供了一个开源项目（Turbine）来提供把多个hystrix.stream的内容聚合为一个数据源供Dashboard展示。
  * 
  * 通过@EnableTurbine接口，激活对Turbine的支持。
+ * 
+ * 查看：http://localhost:8031/turbine.stream
  */
 @SpringBootApplication
 @EnableTurbine

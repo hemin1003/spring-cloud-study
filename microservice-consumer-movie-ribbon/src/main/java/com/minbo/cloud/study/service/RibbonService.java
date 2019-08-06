@@ -11,6 +11,8 @@ public class RibbonService {
 	private RestTemplate restTemplate;
 
 	public String hiService(String name) {
-		return restTemplate.getForObject("http://microservice-provider-user/hi?name=" + name, String.class);
+		String result = restTemplate.getForObject("http://microservice-provider-user/hi?name=" + name, String.class);
+		System.out.println(result);
+		return result;
 	}
 }

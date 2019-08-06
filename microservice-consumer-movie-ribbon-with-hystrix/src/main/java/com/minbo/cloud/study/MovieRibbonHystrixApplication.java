@@ -28,6 +28,8 @@ import org.springframework.web.client.RestTemplate;
  * Hystrix的监控数据默认是保存在每个实例的内存中的，Spring Boot提供了多种方式，可以导入到Redis、TSDB以供日后分析使用。
  * 
  * 使用@EnableCircuitBreaker注解开启断路器功能
+ * 
+ * 查看：http://localhost:8011/actuator/hystrix.stream
  */
 @SpringBootApplication
 @EnableEurekaClient

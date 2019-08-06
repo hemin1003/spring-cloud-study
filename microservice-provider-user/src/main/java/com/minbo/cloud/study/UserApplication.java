@@ -23,6 +23,7 @@ public class UserApplication {
 	@RequestMapping("/hi")
 	public String home(@RequestParam(value = "name", defaultValue = "hello") String name) {
 		String result = "hi " + name + " , i am from port:" + port;
+		System.out.println(result);
 		return result;
 	}
 
