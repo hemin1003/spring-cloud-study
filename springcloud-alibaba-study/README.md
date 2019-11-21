@@ -2,7 +2,7 @@
 
 SpringCloud Alibaba系列（基于Greenwich版本，SpringBoot2.1.7版本实现）
 
-内容主要包含：
+教程地址有（持续更新中...）：
 
 1. SpringCloud Alibaba从入门到精通教程（一）- 配置中心 springcloud-alibaba-nacos-config
 2. SpringCloud Alibaba从入门到精通教程（二）- 配置服务 springcloud-alibaba-nacos-config-server
@@ -24,6 +24,10 @@ SpringCloud Alibaba系列（基于Greenwich版本，SpringBoot2.1.7版本实现�
 | JDK   | 1.8                  |
 | IDE   | Eclipse 或者 IntelliJ IDEA |
 | Maven | 3.x                  |
+
+## 其他
+
+[SpringBoot从入门到精通教程](https://github.com/hemin1003/spring-boot-study)
 
 ## [关于我](http://heminit.com/about/)
 

@@ -14,6 +14,27 @@ SpringCloud微服务框架实战（基于Greenwich版本，SpringBoot2.1.7版本
 | API Gateway           | Zuul                                 |
 | 服务链路追踪           | Sleuth                                 |
 
+教程地址有（持续更新中...）：
+
+1. SpringCloud从入门到精通教程（一）- 服务的注册与发现(Eureka)
+2. SpringCloud从入门到精通教程（二）- 高可用的服务注册中心(Eureka)
+3. SpringCloud从入门到精通教程（三）- 服务提供者
+4. SpringCloud从入门到精通教程（四）- 服务消费者(ribbon)
+5. SpringCloud从入门到精通教程（五）- 服务消费者(feign)
+6. SpringCloud从入门到精通教程（六）- 断路器/服务消费者(ribbon + hystrix)
+7. SpringCloud从入门到精通教程（七）- 断路器/服务消费者(feign + hystrix)
+8. SpringCloud从入门到精通教程（八）- 动态路由网关(zuul)
+9. SpringCloud从入门到精通教程（九）- 动态路由网关限流(zuul+ratelimit)
+10. SpringCloud从入门到精通教程（十）- 分布式配置中心
+11. SpringCloud从入门到精通教程（十一）- 高可用的分布式配置中心
+12. SpringCloud从入门到精通教程（十二）- 断路器监控(hystrix dashboard)
+13. SpringCloud从入门到精通教程（十三）- 路器聚合监控(hystrix turbine)
+14. SpringCloud从入门到精通教程（十四）- 服务链路追踪
+15. SpringCloud从入门到精通教程（十五）- 消息总线bus
+16. SpringCloud从入门到精通教程（十六）- 网关鉴权认证
+17. SpringCloud从入门到精通教程（十七）- SpringBoot Admin监控台
+18. SpringCloud从入门到精通教程（十八）- 项目实战/微服务架构设计
+
 # 准备
 
 ## 环境准备：
@@ -51,6 +72,12 @@ SpringCloud微服务框架实战（基于Greenwich版本，SpringBoot2.1.7版本
 |                                          |      |                        |                 |
 
 [教程说明地址，旧版本文档](https://github.com/hemin1003/spring-cloud-book)
+
+## 其他
+
+[SpringBoot从入门到精通教程](https://github.com/hemin1003/spring-boot-study)
+
+[SpringCloud Alibaba从入门到精通教程](https://github.com/hemin1003/spring-cloud-study/tree/master/springcloud-alibaba-study)
 
 ## [关于我](http://heminit.com/about/)
 
