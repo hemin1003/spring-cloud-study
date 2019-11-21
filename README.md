@@ -1,6 +1,6 @@
 # 项目简介
 
-SpringCloud微服务框架实战（基于Finchley版本，SpringBoot2版本实现）
+SpringCloud微服务框架实战（基于Greenwich版本，SpringBoot2.1.7版本实现）
 
 内容主要包含：
 
@@ -56,7 +56,7 @@ SpringCloud微服务框架实战（基于Finchley版本，SpringBoot2版本实�
 
 欢迎交流问题，可加我的个人QQ 469580884，或群号 751925591，一起探讨交流问题
 
-[我的博客地址](http://blog.csdn.net/hemin1003)
+[我的博客地址-博客专家](http://blog.csdn.net/hemin1003)
 
 [个人域名](http://heminit.com)
 
