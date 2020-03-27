@@ -65,5 +65,5 @@ SpringCloud微服务框架实战（2020年3月更新），源自一线项目实�
 ## 感谢
 如果觉得内容赞，您可以请我喝杯咖啡：
 <br/>
-<img src="./pay/wechat.jpeg" width="240px" height="240px" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./pay/alipay.jpeg" width="240px" height="240px" />
+<img src="https://games-1259044684.cos.ap-guangzhou.myqcloud.com/img/wechat.jpeg" width="240px" height="240px" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://games-1259044684.cos.ap-guangzhou.myqcloud.com/img/alipay.jpeg" width="240px" height="240px" />
