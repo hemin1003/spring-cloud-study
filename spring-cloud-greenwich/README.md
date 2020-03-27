@@ -75,9 +75,11 @@ SpringCloud微服务框架实战（基于Greenwich版本，SpringBoot2.1.7版本
 
 ## 其他
 
-[SpringBoot从入门到精通教程](https://github.com/hemin1003/spring-boot-study)
+1. [SpringCloud从入门到精通教程](https://blog.csdn.net/hemin1003/article/details/82043611)
 
-[SpringCloud Alibaba从入门到精通教程](https://github.com/hemin1003/spring-cloud-study/tree/master/springcloud-alibaba-study)
+2. [SpringBoot从入门到精通教程](https://blog.csdn.net/hemin1003/article/details/82038244)
+
+3. [SpringCloud Alibaba从入门到精通教程](https://blog.csdn.net/hemin1003/article/details/82043611)
 
 ## [关于我](http://heminit.com/about/)
 
