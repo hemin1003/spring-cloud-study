@@ -1,0 +1,19 @@
+spring:
+   application:
+      name: microservice-alibaba-nacos-config
+   profiles:
+      active: dev
+   cloud:
+      nacos:
+         discovery:
+            server-addr: 127.0.0.1:8848
+            namespace: 2bc5565f-453f-4b1c-bde4-eafe23bdb2f0
+         config:
+            server-addr: 127.0.0.1:8848
+            namespace: 2bc5565f-453f-4b1c-bde4-eafe23bdb2f0
+            file-extension: properties
+            shared-dataids: microservice-alibaba-nacos-config.properties
+            refreshable-dataids: microservice-alibaba-nacos-config.properties
+# server
+server:
+   port: 9091

@@ -1,0 +1,83 @@
+# 不同的环境使用不同的配置，通过指定启动参数使用不同的profile，比如：
+# 开发环境：java -jar xxx.jar --spring.profiles.active=dev
+# 生产环境：java -jar xxx.jar --spring.profiles.active=prod
+spring:
+   application:
+      name: microservice-alibaba-nacos-config
+   profiles:
+      active: dev
+   datasource:
+      driverClassName: ${config.datasource.driverClassName}
+      url: ${config.datasource.url}
+      username: ${config.datasource.username}
+      password: ${config.datasource.password}
+      hikari:
+         initial-size: ${config.datasource.initialSize}
+         minimum-idle: ${config.datasource.minIdle}
+         maximum-pool-size: ${config.datasource.maxActive}
+         auto-commit: true
+         idle-timeout: 20000
+         pool-name: MyHikarifMain
+         max-lifetime: 1800000
+         connection-timeout: 20000
+         connection-test-query: SELECT 1
+         validation-timeout: 5000
+   redis:
+      host: ${config.redis.host}
+      port: ${config.redis.port}
+      password: ${config.redis.password}
+      pool:
+         max-idle: ${config.redis.pool.max-idle}
+         min-idle: ${config.redis.pool.min-idle}
+         max-active: ${config.redis.pool.max-active}
+         max-wait: ${config.redis.pool.max-wait}
+      timeout: ${config.redis.timeout}
+      commandTimeout: ${config.redis.commandTimeout}
+   
+# server
+server:
+   port: 9091
+
+#下面这一行务必不能少，区分不同配置，而且必须是三个字符"-"
+---
+spring:
+   profiles: dev
+   cloud:
+      nacos:
+         discovery:
+            server-addr: 127.0.0.1:8848
+            namespace: 2bc5565f-453f-4b1c-bde4-eafe23bdb2f0
+         config:
+            server-addr: 127.0.0.1:8848
+            namespace: 2bc5565f-453f-4b1c-bde4-eafe23bdb2f0
+            file-extension: properties
+            shared-dataids: microservice-alibaba-nacos-config.properties
+            refreshable-dataids: microservice-alibaba-nacos-config.properties
+---
+spring:
+   profiles: test
+   cloud:
+      nacos:
+         discovery:
+            server-addr: 127.0.0.1:8848
+            namespace: 47247e4c-b018-4c63-92cd-ebbc119eef7f
+         config:
+            server-addr: 127.0.0.1:8848
+            namespace: 47247e4c-b018-4c63-92cd-ebbc119eef7f
+            file-extension: properties
+            shared-dataids: microservice-alibaba-nacos-config.properties
+            refreshable-dataids: microservice-alibaba-nacos-config.properties
+---
+spring:
+   profiles: prod
+   cloud:
+      nacos:
+         discovery:
+            server-addr: 127.0.0.1:8848
+            namespace: 9d3bb62a-14c5-43aa-ac05-6576caa5be2b
+         config:
+            server-addr: 127.0.0.1:8848
+            namespace: 9d3bb62a-14c5-43aa-ac05-6576caa5be2b
+            file-extension: properties
+            shared-dataids: microservice-alibaba-nacos-config.properties
+            refreshable-dataids: microservice-alibaba-nacos-config.properties

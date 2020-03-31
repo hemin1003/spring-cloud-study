@@ -1,0 +1,47 @@
+spring:
+   application:
+      name: microservice-alibaba-nacos-config
+   profiles:
+      active: dev
+   cloud:
+      nacos:
+         discovery:
+            server-addr: 127.0.0.1:8848
+            namespace: 2bc5565f-453f-4b1c-bde4-eafe23bdb2f0
+         config:
+            server-addr: 127.0.0.1:8848
+            namespace: 2bc5565f-453f-4b1c-bde4-eafe23bdb2f0
+            file-extension: properties
+            shared-dataids: microservice-alibaba-nacos-config.properties
+            refreshable-dataids: microservice-alibaba-nacos-config.properties
+   datasource:
+      driverClassName: ${config.datasource.driverClassName}
+      url: ${config.datasource.url}
+      username: ${config.datasource.username}
+      password: ${config.datasource.password}
+      hikari:
+         initial-size: ${config.datasource.initialSize}
+         minimum-idle: ${config.datasource.minIdle}
+         maximum-pool-size: ${config.datasource.maxActive}
+         auto-commit: true
+         idle-timeout: 20000
+         pool-name: MyHikarifMain
+         max-lifetime: 1800000
+         connection-timeout: 20000
+         connection-test-query: SELECT 1
+         validation-timeout: 5000
+   redis:
+      host: ${config.redis.host}
+      port: ${config.redis.port}
+      password: ${config.redis.password}
+      pool:
+         max-idle: ${config.redis.pool.max-idle}
+         min-idle: ${config.redis.pool.min-idle}
+         max-active: ${config.redis.pool.max-active}
+         max-wait: ${config.redis.pool.max-wait}
+      timeout: ${config.redis.timeout}
+      commandTimeout: ${config.redis.commandTimeout}
+   
+# server
+server:
+   port: 9091

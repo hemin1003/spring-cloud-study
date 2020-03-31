@@ -1,0 +1,13 @@
+spring:
+   application:
+      name: microservice-alibaba-nacos-discovery
+   profiles:
+      active: dev
+   cloud:
+      nacos:
+         discovery:
+            server-addr: 127.0.0.1:8848
+            namespace: 2bc5565f-453f-4b1c-bde4-eafe23bdb2f0
+# server
+server:
+   port: 9090

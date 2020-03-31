@@ -4,28 +4,13 @@ SpringCloud Alibaba系列（基于Greenwich版本，SpringBoot2.1.7版本实现�
 
 教程地址有（持续更新中...）：
 
-1. SpringCloud Alibaba从入门到精通教程（一）- 配置中心 springcloud-alibaba-nacos-config
-2. SpringCloud Alibaba从入门到精通教程（二）- 配置服务 springcloud-alibaba-nacos-config-server
-3. SpringCloud Alibaba从入门到精通教程（三）- 服务注册与发现 springcloud-alibaba-nacos-discovery
-4. SpringCloud Alibaba从入门到精通教程（四）- 限流 springcloud-alibaba-sentinel
-5. SpringCloud Alibaba从入门到精通教程（五）- 限流数据源 springcloud-alibaba-sentinel-datasource
-6. SpringCloud Alibaba从入门到精通教程（六）- 限流网关 springcloud-alibaba-sentinel-gateway
-7. SpringCloud Alibaba从入门到精通教程（七）- 断路器 springcloud-alibaba-circuitbreaker-sentinel
-8. SpringCloud Alibaba从入门到精通教程（八）- MQ消息 springcloud-alibaba-rocketmq
-9. SpringCloud Alibaba从入门到精通教程（九）- 分布式事务 springcloud-alibaba-seata
-10. SpringCloud Alibaba从入门到精通教程（十）- 服务治理 springcloud-alibaba-dubbo
+1. SpringCloud Alibaba从入门到精通教程（一）- 配置中心Nacos快速入门介绍/Server启动安装
+2. SpringCloud Alibaba从入门到精通教程（二）- 项目中快速集成配置中心Nacos-服务注册发现功能
+3. SpringCloud Alibaba从入门到精通教程（三）- 项目中快速集成配置中心Nacos-配置管理功能
+4. SpringCloud Alibaba从入门到精通教程（四）- 流控组件Sentinel快速入门介绍/Server启动安装
+5. SpringCloud Alibaba从入门到精通教程（五）- 项目中快速集成流控组件Sentinel
 
-# 准备
-
-## 环境准备：
-
-| 工具    | 版本或描述                |
-| ----- | -------------------- |
-| JDK   | 1.8                  |
-| IDE   | Eclipse 或者 IntelliJ IDEA |
-| Maven | 3.x                  |
-
-## 其他
+## 我的教程系列
 
 1. [SpringCloud从入门到精通教程](https://blog.csdn.net/hemin1003/article/details/82043611)
 
