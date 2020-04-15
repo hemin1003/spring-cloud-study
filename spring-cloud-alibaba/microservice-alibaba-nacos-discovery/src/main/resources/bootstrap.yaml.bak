@@ -5,7 +5,7 @@ spring:
    application:
       name: microservice-alibaba-nacos-discovery
    profiles:
-      active: dev
+      active: test
 # server
 server:
    port: 9090
