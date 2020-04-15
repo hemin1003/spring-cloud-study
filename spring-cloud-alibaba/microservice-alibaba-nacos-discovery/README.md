@@ -8,7 +8,7 @@
 
 ## 本项目教程
 
-[项目中快速集成配置中心Nacos-服务注册发现功能](xxxxxx)
+[项目中快速集成配置中心Nacos-服务注册发现功能](https://hemin.blog.csdn.net/article/details/105517927)
 
 ## 该系列教程
 

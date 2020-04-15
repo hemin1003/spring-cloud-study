@@ -1,0 +1,37 @@
+# 不同的环境使用不同的配置，通过指定启动参数使用不同的profile，比如：
+# 开发环境：java -jar xxx.jar --spring.profiles.active=dev
+# 生产环境：java -jar xxx.jar --spring.profiles.active=prod
+spring:
+   application:
+      name: microservice-alibaba-nacos-discovery
+   profiles:
+      active: dev
+# server
+server:
+   port: 9090
+
+#下面这一行务必不能少，区分不同环境配置，而且必须是三个字符"-"
+---
+spring:
+   profiles: dev
+   cloud:
+      nacos:
+         discovery:
+            server-addr: 127.0.0.1:8848
+            namespace: 2bc5565f-453f-4b1c-bde4-eafe23bdb2f0
+---
+spring:
+   profiles: test
+   cloud:
+      nacos:
+         discovery:
+            server-addr: 127.0.0.1:8848
+            namespace: 47247e4c-b018-4c63-92cd-ebbc119eef7f
+---
+spring:
+   profiles: prod
+   cloud:
+      nacos:
+         discovery:
+            server-addr: 127.0.0.1:8848
+            namespace: 9d3bb62a-14c5-43aa-ac05-6576caa5be2b
