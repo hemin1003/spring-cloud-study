@@ -1,14 +1,14 @@
 # microservice-alibaba-nacos-config
 
-【项目中快速集成配置中心Nacos-配置管理功能】技术点
+【项目中快速集成配置中心Nacos-配置中心管理功能】技术点
 
 功能介绍
 
-1. 项目中快速集成配置中心Nacos-配置管理功能
+1. 项目中快速集成配置中心Nacos-配置中心管理功能
 
 ## 本项目教程
 
-[项目中快速集成配置中心Nacos-配置管理功能](xxxxxx)
+[项目中快速集成配置中心Nacos-配置中心管理功能](https://hemin.blog.csdn.net/article/details/105517950)
 
 ## 该系列教程
 
