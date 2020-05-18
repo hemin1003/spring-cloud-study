@@ -36,7 +36,7 @@ SpringCloud微服务框架实战（2020年3月更新），源自一线项目实�
 1. [SpringCloud Alibaba从入门到精通教程（一）- 配置中心Nacos快速入门介绍·Server启动安装](https://blog.csdn.net/hemin1003/article/details/105517901)
 2. [SpringCloud Alibaba从入门到精通教程（二）- 项目中快速集成配置中心·Nacos-服务注册发现功能 springcloud-alibaba-nacos-discovery](https://hemin.blog.csdn.net/article/details/105517927)
 3. [SpringCloud Alibaba从入门到精通教程（三）- 项目中快速集成配置中心·Nacos-配置中心管理功能 springcloud-alibaba-nacos-config](https://hemin.blog.csdn.net/article/details/105517950)
-4. SpringCloud Alibaba从入门到精通教程（四）- 流控组件Sentinel快速入门介绍·Server启动安装
+4. [SpringCloud Alibaba从入门到精通教程（四）- 流控组件Sentinel快速入门介绍·Server启动安装](https://hemin.blog.csdn.net/article/details/105517988)
 5. SpringCloud Alibaba从入门到精通教程（五）- 项目中快速集成·限流组件Sentinel springcloud-alibaba-sentinel
 6. SpringCloud Alibaba从入门到精通教程（六）- 项目中快速集成·MQ消息组件RocketMQ springcloud-alibaba-rocketmq
 7. SpringCloud Alibaba从入门到精通教程（七）- 项目中快速集成·分布式事务组件Seata springcloud-alibaba-seata
