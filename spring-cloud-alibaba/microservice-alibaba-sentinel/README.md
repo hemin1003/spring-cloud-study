@@ -1,14 +1,14 @@
 # microservice-alibaba-sentinel
 
-【项目中快速集成流控组件Sentinel】技术点
+【项目中快速集成·限流组件Sentinel】技术点
 
 功能介绍
 
-1. 项目中快速集成流控组件Sentinel
+1. 项目中快速集成·限流组件Sentinel
 
 ## 本项目教程
 
-[项目中快速集成流控组件Sentinel](xxxxxx)
+[项目中快速集成·限流组件Sentinel](https://hemin.blog.csdn.net/article/details/105517973)
 
 ## 该系列教程
 
