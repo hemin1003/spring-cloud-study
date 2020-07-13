@@ -38,12 +38,13 @@ SpringCloud微服务框架实战（2020年3月更新），源自一线项目实�
 3. [SpringCloud Alibaba从入门到精通教程（三）- 项目中快速集成配置中心·Nacos-配置中心管理功能 springcloud-alibaba-nacos-config](https://hemin.blog.csdn.net/article/details/105517950)
 4. [SpringCloud Alibaba从入门到精通教程（四）- 流控组件Sentinel快速入门介绍·Server启动安装](https://hemin.blog.csdn.net/article/details/105517988)
 5. [SpringCloud Alibaba从入门到精通教程（五）- 项目中快速集成·限流组件Sentinel springcloud-alibaba-sentinel](https://hemin.blog.csdn.net/article/details/105517973)
-6. SpringCloud Alibaba从入门到精通教程（六）- 项目中快速集成·MQ消息组件RocketMQ springcloud-alibaba-rocketmq
-7. SpringCloud Alibaba从入门到精通教程（七）- 项目中快速集成·分布式事务组件Seata springcloud-alibaba-seata
-8. SpringCloud Alibaba从入门到精通教程（八）- 项目中快速集成·服务治理组件Dubbo springcloud-alibaba-dubbo
-9. SpringCloud Alibaba从入门到精通教程（九）- 项目中快速集成·限流组件Sentinel之限流数据源 springcloud-alibaba-sentinel-datasource
-10. SpringCloud Alibaba从入门到精通教程（十）- 项目中快速集成·限流组件Sentinel之限流网关 springcloud-alibaba-sentinel-gateway
-11. SpringCloud Alibaba从入门到精通教程（十一）- 项目中快速集成·限流组件Sentinel之断路器 springcloud-alibaba-circuitbreaker-sentinel
+6. [SpringCloud Alibaba从入门到精通教程（六）- 消息组件RocketMQ快速入门介绍·Server启动安装](https://blog.csdn.net/hemin1003/article/details/106555661)
+7. SpringCloud Alibaba从入门到精通教程（七）- 项目中快速集成·MQ消息组件RocketMQ springcloud-alibaba-rocketmq
+8. SpringCloud Alibaba从入门到精通教程（八）- 项目中快速集成·分布式事务组件Seata springcloud-alibaba-seata
+9. SpringCloud Alibaba从入门到精通教程（九）- 项目中快速集成·服务治理组件Dubbo springcloud-alibaba-dubbo
+10. SpringCloud Alibaba从入门到精通教程（十）- 项目中快速集成·限流组件Sentinel之限流数据源 springcloud-alibaba-sentinel-datasource
+11. SpringCloud Alibaba从入门到精通教程（十一）- 项目中快速集成·限流组件Sentinel之限流网关 springcloud-alibaba-sentinel-gateway
+12. SpringCloud Alibaba从入门到精通教程（十二）- 项目中快速集成·限流组件Sentinel之断路器 springcloud-alibaba-circuitbreaker-sentinel
 
 ## 其他
 
