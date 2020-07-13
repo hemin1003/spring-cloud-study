@@ -17,10 +17,10 @@ SpringCloud微服务框架实战（基于Greenwich版本，SpringBoot2.1.7版本
 教程地址有（持续更新中...）：
 
 1. SpringCloud从入门到精通教程（一）- 服务的注册与发现(Eureka)
-2. SpringCloud从入门到精通教程（二）- 高可用的服务注册中心(Eureka)
-3. SpringCloud从入门到精通教程（三）- 服务提供者
-4. SpringCloud从入门到精通教程（四）- 服务消费者(ribbon)
-5. SpringCloud从入门到精通教程（五）- 服务消费者(feign)
+2. SpringCloud从入门到精通教程（二）- 服务提供者
+3. SpringCloud从入门到精通教程（三）- 服务消费者(ribbon)
+4. SpringCloud从入门到精通教程（四）- 服务消费者(feign)
+5. SpringCloud从入门到精通教程（五）- 高可用的服务注册中心(Eureka)
 6. SpringCloud从入门到精通教程（六）- 断路器/服务消费者(ribbon + hystrix)
 7. SpringCloud从入门到精通教程（七）- 断路器/服务消费者(feign + hystrix)
 8. SpringCloud从入门到精通教程（八）- 动态路由网关(zuul)
