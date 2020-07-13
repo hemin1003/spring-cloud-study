@@ -2,11 +2,12 @@ server:
    port: 8761 # 指定该Eureka实例的端口
 eureka:
    instance:
-      hostname: discovery # 指定该Eureka实例的主机名
+      hostname: localhost # 指定该Eureka实例的主机名
    # 配置关闭自我保护，并按需配置Eureka Server清理无效节点的时间间隔
    server:
       enable-self-preservation: false
       eviction-interval-timer-in-ms: 4000
+   # 通过eureka.client.registerWithEureka:false和fetchRegistry:false，来表明自己是一个eureka server
    client:
       registerWithEureka: false
       fetchRegistry: false
