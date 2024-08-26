@@ -27,7 +27,7 @@
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
 		<alibaba-spring-cloud.version>0.9.0.RELEASE</alibaba-spring-cloud.version>
 		<nacos.version>0.2.2.RELEASE</nacos.version>
-		<swagger.version>2.9.2</swagger.version>
+		<swagger.version>2.10.0</swagger.version>
 	</properties>
 
 	<dependencyManagement>
